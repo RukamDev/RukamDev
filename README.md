@@ -44,17 +44,12 @@ Mindset.....: Smart problem-solving, automation and data security
   <img src="https://streak-stats.demolab.com?user=RukamDev&theme=tokyonight&hide_border=true" />
 </p>
 
-## Featured Repositories
+## Current Focus
 
-### [RukamDev](https://github.com/RukamDev/RukamDev)
-
-No public description is set for this repository.
-
-- Stars: 0
-- Primary language: none detected
-- Last push: 2026-04-29T16:09:50Z
+- Building practical backend and automation projects for my portfolio.
+- Improving my skills in software engineering, Java, Python and databases.
+- Exploring data security, reliability and smart solutions for real-world problems.
 
 ## Contact
 
 - GitHub: [@RukamDev](https://github.com/RukamDev)
-- LinkedIn: not found in the scanned public GitHub data
