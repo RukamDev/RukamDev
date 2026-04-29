@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&center=true&vCenter=true&width=980&lines=Software+Engineering+Student;Backend+%7C+Frontend+%7C+Data+Analysis+%7C+Automation;Smart+problem-solving+and+data+security" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&center=true&vCenter=true&width=980&lines=Software+Engineering+Student;Backend%2C+automation+and+smart+problem-solving;Hardware+professional+and+data+security+enthusiast;Building+practical+solutions+for+real+problems" alt="Typing SVG" />
 </p>
 
 ```bash
@@ -16,16 +16,16 @@ $ whoami
 Name........: Gabriel S.
 Username....: RukamDev
 Role........: Software Engineering Student
-Focus.......: Backend | Frontend | Data Analysis | Automation
-Mindset.....: Smart problem-solving, automation and data security
+Focus.......: Backend | Automation | Problem-Solving
+Status......: Hardware professional and data security enthusiast
 ```
 
 ## About
 
-- Software Engineering student focused on backend development, frontend projects and practical problem-solving.
-- Enjoy building automations and turning ideas into useful, reliable solutions.
-- Work with data, MySQL and cross-platform environments including Windows, Linux and macOS.
-- Interested in data security, smart systems and continuous learning through real projects.
+- Focused on backend development, automation and smart problem-solving.
+- Hardware professional with experience across Windows, Linux and macOS environments.
+- Enjoy working with frontend projects, data, MySQL and practical solutions for real needs.
+- Interested in data security, system reliability and continuous improvement through technology.
 
 ## GitHub Stats
 
