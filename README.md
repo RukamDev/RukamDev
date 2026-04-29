@@ -22,9 +22,9 @@ Status......: Hardware professional and data security enthusiast
 
 ## About
 
+- Software Engineering student with a strong background in hardware.
 - Focused on backend development, automation and smart problem-solving.
-- Hardware professional with experience across Windows, Linux and macOS environments.
-- Enjoy working with frontend projects, data, MySQL and practical solutions for real needs.
+- Enjoy working with frontend projects, data, MySQL and cross-platform environments.
 - Interested in data security, system reliability and continuous improvement through technology.
 
 ## GitHub Stats
