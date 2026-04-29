@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&center=true&vCenter=true&width=980&lines=Software+Engineering+Student;Backend-focused+developer;Frontend+enthusiast+%7C+Linux+%7C+Windows+%7C+MySQL;Data+analysis%2C+smart+problem-solving%2C+automation+and+data+security" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&center=true&vCenter=true&width=980&lines=Software+Engineering+Student;Backend+%7C+Frontend+%7C+Data+Analysis+%7C+Automation;Smart+problem-solving+and+data+security" alt="Typing SVG" />
 </p>
 
 ```bash
@@ -16,8 +16,7 @@ $ whoami
 Name........: Gabriel S.
 Username....: RukamDev
 Role........: Software Engineering Student
-Focus.......: Backend | Frontend | Data Analysis
-Stack.......: Linux | Windows | MySQL
+Focus.......: Backend | Frontend | Data Analysis | Automation
 Mindset.....: Smart problem-solving, automation and data security
 ```
 
@@ -27,10 +26,6 @@ Mindset.....: Smart problem-solving, automation and data security
 - I'm also a frontend enthusiast and enjoy working across Linux and Windows environments.
 - I study MySQL and data analysis to build practical and intelligent solutions.
 - I'm especially interested in automation and data security.
-
-## Tech Stack
-
-No public repository languages were detected in the scanned repository data.
 
 ## GitHub Stats
 
