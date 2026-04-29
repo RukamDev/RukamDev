@@ -16,8 +16,8 @@ $ whoami
 Name........: Gabriel S.
 Username....: RukamDev
 Role........: Software Engineering Student
-Focus.......: Backend | Automation | Problem-Solving
-Status......: Hardware professional and data security enthusiast
+Focus.......: Backend | Frontend | Data Analysis | Automation
+Mindset.....: Smart problem-solving, automation and data security
 ```
 
 ## About
