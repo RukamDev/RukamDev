@@ -30,7 +30,7 @@ Mindset.....: Smart problem-solving, automation and data security
 ## Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,bash,powershell,linux,windows,mysql,docker,git,github,vscode,idea" />
+  <img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,bash,powershell,linux,windows,mysql,postgres,docker,git,github,githubactions,gitlab,vscode,idea" />
 </p>
 
 ## GitHub Stats
