@@ -53,3 +53,7 @@ Mindset.....: Smart problem-solving, automation and data security
 ## Contact
 
 - GitHub: [@RukamDev](https://github.com/RukamDev)
+
+---
+
+<p align="center"><i>"Smart solutions solve problems. Great engineering makes them reliable, secure and built to last."</i></p>
