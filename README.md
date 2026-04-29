@@ -27,6 +27,12 @@ Mindset.....: Smart problem-solving, automation and data security
 - Enjoy working with frontend projects, data, MySQL and cross-platform environments.
 - Interested in data security, system reliability and continuous improvement through technology.
 
+## Tech Stack
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,bash,powershell,linux,mysql,docker,git,github,vscode,idea" />
+</p>
+
 ## GitHub Stats
 
 <p>
