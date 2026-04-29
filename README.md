@@ -20,12 +20,12 @@ Focus.......: Backend | Frontend | Data Analysis | Automation
 Mindset.....: Smart problem-solving, automation and data security
 ```
 
-## About Me
+## About
 
-- I'm a Software Engineering student with a strong focus on backend development.
-- I'm also a frontend enthusiast and enjoy working across Linux and Windows environments.
-- I study MySQL and data analysis to build practical and intelligent solutions.
-- I'm especially interested in automation and data security.
+- Software Engineering student focused on backend development, frontend projects and practical problem-solving.
+- Enjoy building automations and turning ideas into useful, reliable solutions.
+- Work with data, MySQL and cross-platform environments including Windows, Linux and macOS.
+- Interested in data security, smart systems and continuous learning through real projects.
 
 ## GitHub Stats
 
