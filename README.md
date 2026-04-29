@@ -8,24 +8,25 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&center=true&vCenter=true&width=900&lines=Gabriel+S.;RukamDev;github.com%2FRukamDev;1+public+repository" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&center=true&vCenter=true&width=980&lines=Software+Engineering+Student;Backend-focused+developer;Frontend+enthusiast+%7C+Linux+%7C+Windows+%7C+MySQL;Data+analysis%2C+smart+problem-solving%2C+automation+and+data+security" alt="Typing SVG" />
 </p>
 
 ```bash
 $ whoami
 Name........: Gabriel S.
 Username....: RukamDev
-Profile URL.: https://github.com/RukamDev
-Repo........: RukamDev
-Status......: 1 public repository scanned
+Role........: Software Engineering Student
+Focus.......: Backend | Frontend | Data Analysis
+Stack.......: Linux | Windows | MySQL
+Mindset.....: Smart problem-solving, automation and data security
 ```
 
 ## About Me
 
-- I'm Gabriel S.
-- My GitHub username is RukamDev.
-- My public GitHub profile is https://github.com/RukamDev.
-- My scanned public repository is RukamDev.
+- I'm a Software Engineering student with a strong focus on backend development.
+- I'm also a frontend enthusiast and enjoy working across Linux and Windows environments.
+- I study MySQL and data analysis to build practical and intelligent solutions.
+- I'm especially interested in automation and data security.
 
 ## Tech Stack
 
