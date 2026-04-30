@@ -34,25 +34,38 @@ Mindset.....: Smart problem-solving, automation and data security
 ### Languages
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,bash" />
+  <img src="https://img.shields.io/badge/Python-0f172a?style=for-the-badge&logo=python&logoColor=3776AB" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-0f172a?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" />
+  <img src="https://img.shields.io/badge/JavaScript-0f172a?style=for-the-badge&logo=javascript&logoColor=F7DF1E" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-0f172a?style=for-the-badge&logo=typescript&logoColor=3178C6" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Bash-0f172a?style=for-the-badge&logo=gnubash&logoColor=4EAA25" alt="Bash" />
 </p>
 
 ### Systems
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=linux,windows,powershell" />
+  <img src="https://img.shields.io/badge/Linux-0f172a?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
+  <img src="https://img.shields.io/badge/Windows-0f172a?style=for-the-badge&logo=windows&logoColor=0078D6" alt="Windows" />
+  <img src="https://img.shields.io/badge/PowerShell-0f172a?style=for-the-badge&logo=powershell&logoColor=5391FE" alt="PowerShell" />
 </p>
 
 ### Databases
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres" />
+  <img src="https://img.shields.io/badge/MySQL-0f172a?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0f172a?style=for-the-badge&logo=postgresql&logoColor=4169E1" alt="PostgreSQL" />
 </p>
 
 ### Tools & DevOps
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,gitlab,vscode,idea" />
+  <img src="https://img.shields.io/badge/Docker-0f172a?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-0f172a?style=for-the-badge&logo=git&logoColor=F05032" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-0f172a?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-0f172a?style=for-the-badge&logo=githubactions&logoColor=2088FF" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/GitLab-0f172a?style=for-the-badge&logo=gitlab&logoColor=FC6D26" alt="GitLab" />
+  <img src="https://img.shields.io/badge/VS_Code-0f172a?style=for-the-badge&logo=visualstudiocode&logoColor=007ACC" alt="VS Code" />
+  <img src="https://img.shields.io/badge/IntelliJ_IDEA-0f172a?style=for-the-badge&logo=intellijidea&logoColor=FFFFFF" alt="IntelliJ IDEA" />
 </p>
 
 ## GitHub Stats
