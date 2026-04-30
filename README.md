@@ -5,9 +5,8 @@
 <p align="center">
   <!-- Add LinkedIn URL here later -->
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  <a href="https://github.com/RukamDev">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
+  <!-- Add GitLab URL here later -->
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
   <!-- Add portfolio URL here later -->
   <img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio" />
 </p>
