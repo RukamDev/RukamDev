@@ -44,9 +44,7 @@ Mindset.....: Smart problem-solving, automation and data security
 ### Systems
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Linux-0f172a?style=for-the-badge&logo=linux&logoColor=FCC624" alt="Linux" />
-  <img src="https://img.shields.io/badge/Windows-0f172a?style=for-the-badge&logo=windows&logoColor=0078D6" alt="Windows" />
-  <img src="https://img.shields.io/badge/PowerShell-0f172a?style=for-the-badge&logo=powershell&logoColor=5391FE" alt="PowerShell" />
+  <img height="56" src="https://skillicons.dev/icons?i=linux,windows,powershell&theme=dark" alt="Linux, Windows and PowerShell" />
 </p>
 
 ### Databases
