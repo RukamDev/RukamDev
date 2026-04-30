@@ -1,117 +1,178 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="980" height="280" viewBox="0 0 980 280" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">RukamDev custom banner</title>
-  <desc id="desc">Dark terminal style banner for RukamDev with backend focus, links, and decorative code graphics.</desc>
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1" fill="#1a1a1a" />
-    </pattern>
-    <linearGradient id="avatarGlow" x1="0" y1="0" x2="0" y2="140" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#7a5af8" stop-opacity="0.28"/>
-      <stop offset="1" stop-color="#00ff87" stop-opacity="0.10"/>
+    <linearGradient id="bgGradient" x1="70" y1="42" x2="1134" y2="332" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#06080B" />
+      <stop offset="0.5" stop-color="#050505" />
+      <stop offset="1" stop-color="#09050F" />
     </linearGradient>
-    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+    <linearGradient id="panelGradient" x1="84" y1="66" x2="588" y2="304" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0E1620" stop-opacity="0.78" />
+      <stop offset="1" stop-color="#0A0C14" stop-opacity="0.42" />
+    </linearGradient>
+    <linearGradient id="frameGradient" x1="760" y1="82" x2="1106" y2="292" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0D141E" stop-opacity="0.78" />
+      <stop offset="1" stop-color="#0A0912" stop-opacity="0.48" />
+    </linearGradient>
+    <linearGradient id="cyanLine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7EF9FF" />
+      <stop offset="1" stop-color="#00FFFF" />
+    </linearGradient>
+    <linearGradient id="purpleLine" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#A78BFA" />
+      <stop offset="1" stop-color="#7C3AED" />
+    </linearGradient>
+    <linearGradient id="pythonTop" x1="-28" y1="-32" x2="28" y2="24" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8AFBFF" />
+      <stop offset="1" stop-color="#00FFFF" />
+    </linearGradient>
+    <linearGradient id="pythonBottom" x1="-28" y1="26" x2="28" y2="-26" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#B794FF" />
+      <stop offset="1" stop-color="#7C3AED" />
+    </linearGradient>
+    <radialGradient id="cyanAura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(224 126) rotate(35) scale(314 232)">
+      <stop offset="0" stop-color="#00FFFF" stop-opacity="0.28" />
+      <stop offset="1" stop-color="#00FFFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purpleAura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(986 166) rotate(-18) scale(332 248)">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.30" />
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0" />
+    </radialGradient>
+    <filter id="blurGlow" x="-200" y="-200" width="1600" height="760" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="58" />
     </filter>
+    <filter id="cyanGlow" x="-80" y="-80" width="280" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#00FFFF" flood-opacity="0.85" />
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#00FFFF" flood-opacity="0.34" />
+    </filter>
+    <filter id="purpleGlow" x="-80" y="-80" width="280" height="280" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#A78BFA" flood-opacity="0.85" />
+      <feDropShadow dx="0" dy="0" stdDeviation="18" flood-color="#7C3AED" flood-opacity="0.34" />
+    </filter>
+    <filter id="glassShadow" x="18" y="16" width="1168" height="328" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.42" />
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1" />
+    </pattern>
+    <style>
+      .sans { font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+      .mono { font-family: Consolas, 'SFMono-Regular', 'Liberation Mono', Menlo, monospace; }
+      .tiny { font-size: 11px; letter-spacing: 0.34em; text-transform: uppercase; }
+      .scan { opacity: 0.18; }
+    </style>
   </defs>
 
-  <rect width="980" height="280" rx="18" fill="#0a0a0a"/>
-  <rect width="980" height="280" rx="18" fill="url(#dots)" opacity="0.9"/>
-  <rect x="1" y="1" width="978" height="278" rx="17" stroke="#1e1e1e"/>
-  <path d="M198 28H716" stroke="#151515"/>
-  <path d="M198 252H716" stroke="#151515"/>
+  <rect width="1200" height="360" rx="0" fill="url(#bgGradient)" />
+  <rect width="1200" height="360" fill="url(#grid)" opacity="0.24" />
 
-  <g transform="translate(100 140)">
-    <circle r="70" fill="#0d0d0d" stroke="#1e1e1e" stroke-width="2"/>
-    <circle r="56" fill="url(#avatarGlow)" stroke="#222"/>
-    <circle r="64" fill="none" stroke="#7a5af8" stroke-width="3" stroke-dasharray="10 8" stroke-linecap="round">
-      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="12s" repeatCount="indefinite"/>
-    </circle>
-    <text x="0" y="-4" text-anchor="middle" fill="#e0e0e0" font-family="'JetBrains Mono','Courier New',monospace" font-size="30" font-weight="700">GS</text>
-    <text x="0" y="22" text-anchor="middle" fill="#888" font-family="'JetBrains Mono','Courier New',monospace" font-size="12">@RukamDev</text>
+  <g filter="url(#blurGlow)">
+    <ellipse cx="230" cy="120" rx="190" ry="138" fill="url(#cyanAura)">
+      <animate attributeName="cx" values="230;214;230" dur="11s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="986" cy="166" rx="212" ry="150" fill="url(#purpleAura)">
+      <animate attributeName="cx" values="986;1004;986" dur="12s" repeatCount="indefinite" />
+    </ellipse>
   </g>
 
-  <g transform="translate(220 34)">
-    <line x1="0" y1="26" x2="118" y2="26" stroke="#7a5af8" stroke-width="2" opacity="0.8"/>
-    <line x1="370" y1="26" x2="488" y2="26" stroke="#7a5af8" stroke-width="2" opacity="0.8"/>
-    <text x="244" y="34" text-anchor="middle" fill="#ffffff" font-family="'JetBrains Mono','Courier New',monospace" font-size="36" font-weight="700">Backend Development</text>
+  <g filter="url(#glassShadow)">
+    <rect x="34" y="30" width="1132" height="300" rx="30" fill="rgba(6,10,15,0.52)" stroke="rgba(255,255,255,0.08)" stroke-width="1.2" />
+    <rect x="34.5" y="30.5" width="1131" height="299" rx="29.5" stroke="rgba(0,255,255,0.08)" stroke-width="1" />
+  </g>
 
-    <g transform="translate(18 62)">
-      <rect x="0" y="0" width="70" height="24" rx="6" fill="#111" stroke="#333"/>
-      <text x="35" y="16" text-anchor="middle" fill="#888" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" letter-spacing="1.4">FOCUS</text>
-      <rect x="82" y="0" width="242" height="24" rx="6" fill="#7a5af8"/>
-      <text x="203" y="16" text-anchor="middle" fill="#f7f7f7" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" font-weight="700">BACKEND DEVELOPMENT *</text>
+  <line x1="34" y1="82" x2="1166" y2="82" stroke="rgba(255,255,255,0.06)" />
+
+  <g transform="translate(58 53)">
+    <circle cx="12" cy="12" r="4.5" fill="#FF5F57" />
+    <circle cx="30" cy="12" r="4.5" fill="#FEBB2E" />
+    <circle cx="48" cy="12" r="4.5" fill="#28C840" />
+  </g>
+
+  <g transform="translate(64 96)">
+    <rect x="0" y="0" width="594" height="208" rx="28" fill="url(#panelGradient)" stroke="rgba(255,255,255,0.08)" />
+    <rect x="0.5" y="0.5" width="593" height="207" rx="27.5" stroke="rgba(0,255,255,0.12)" />
+
+    <g transform="translate(20 18)">
+      <line x1="0" y1="0" x2="84" y2="0" stroke="url(#cyanLine)" stroke-width="2" stroke-linecap="round" />
+      <line x1="460" y1="0" x2="538" y2="0" stroke="rgba(255,255,255,0.18)" stroke-width="2" stroke-linecap="round" />
+      <line x1="482" y1="12" x2="538" y2="12" stroke="rgba(255,255,255,0.1)" stroke-width="2" stroke-linecap="round" />
     </g>
 
-    <g transform="translate(18 98)">
-      <rect x="0" y="0" width="92" height="24" rx="6" fill="#111" stroke="#333"/>
-      <text x="46" y="16" text-anchor="middle" fill="#888" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" letter-spacing="1.4">LEARNING</text>
-      <rect x="104" y="0" width="220" height="24" rx="6" fill="#e5a550"/>
-      <text x="214" y="16" text-anchor="middle" fill="#1a1a1a" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" font-weight="700">JAVA | MYSQL | PYTHON *</text>
+    <text x="26" y="54" class="mono" font-size="24" font-weight="600" fill="#00FFFF">$ whoami</text>
+
+    <text x="26" y="108" class="sans" font-size="58" font-weight="700" fill="#F3FCFF">Gabriel S.</text>
+    <text x="28" y="147" class="sans" font-size="22" font-weight="500" fill="#DBF7FF">Fullstack Developer . Automation . Data . Security</text>
+
+    <g transform="translate(26 172)">
+      <rect x="0" y="0" width="212" height="52" rx="16" fill="rgba(5,5,5,0.34)" stroke="rgba(124,58,237,0.38)" />
+      <rect x="1" y="1" width="210" height="50" rx="15" stroke="rgba(0,255,255,0.16)" />
+      <text x="18" y="34" class="mono" font-size="24" font-weight="600" fill="#E8FBFF">RukamDev_</text>
+      <rect x="164" y="14" width="10" height="22" rx="2" fill="#00FFFF" filter="url(#cyanGlow)">
+        <animate attributeName="opacity" values="1;1;0;0;1" dur="1.15s" repeatCount="indefinite" />
+      </rect>
     </g>
 
-    <g transform="translate(18 134)">
-      <rect x="0" y="0" width="84" height="24" rx="6" fill="#111" stroke="#333"/>
-      <text x="42" y="16" text-anchor="middle" fill="#888" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" letter-spacing="1.4">MINDSET</text>
-      <rect x="96" y="0" width="188" height="24" rx="6" fill="#7a5af8"/>
-      <text x="190" y="16" text-anchor="middle" fill="#f7f7f7" font-family="'JetBrains Mono','Courier New',monospace" font-size="11" font-weight="700">ALWAYS EVOLVING *</text>
-    </g>
-
-    <g transform="translate(8 186)">
-      <a href="https://your-portfolio-link.com">
-        <rect x="0" y="0" width="126" height="28" rx="8" fill="#111" stroke="#333"/>
-        <text x="63" y="18" text-anchor="middle" fill="#aaa" font-family="'JetBrains Mono','Courier New',monospace" font-size="12">PORTFOLIO -&gt;</text>
-      </a>
-      <a href="https://gitlab.com/your-username">
-        <rect x="138" y="0" width="110" height="28" rx="8" fill="#111" stroke="#333"/>
-        <text x="193" y="18" text-anchor="middle" fill="#aaa" font-family="'JetBrains Mono','Courier New',monospace" font-size="12">GITLAB -&gt;</text>
-      </a>
-      <a href="https://linkedin.com/in/your-username">
-        <rect x="252" y="0" width="126" height="28" rx="8" fill="#111" stroke="#333"/>
-        <text x="315" y="18" text-anchor="middle" fill="#aaa" font-family="'JetBrains Mono','Courier New',monospace" font-size="12">LINKEDIN -&gt;</text>
-      </a>
+    <g transform="translate(30 188)" class="scan">
+      <line x1="236" y1="17" x2="516" y2="17" stroke="rgba(255,255,255,0.12)" stroke-width="1.4" stroke-linecap="round" />
+      <line x1="236" y1="36" x2="468" y2="36" stroke="rgba(255,255,255,0.08)" stroke-width="1.4" stroke-linecap="round" />
+      <line x1="236" y1="55" x2="430" y2="55" stroke="rgba(255,255,255,0.06)" stroke-width="1.4" stroke-linecap="round" />
+      <rect x="240" y="7" width="44" height="6" rx="3" fill="#00FFFF" opacity="0.72" />
+      <rect x="294" y="7" width="26" height="6" rx="3" fill="#7C3AED" opacity="0.72" />
+      <rect x="330" y="7" width="18" height="6" rx="3" fill="#EAFDFF" opacity="0.48" />
     </g>
   </g>
 
-  <g transform="translate(748 26)">
-    <rect x="0" y="0" width="190" height="112" rx="10" fill="#101010" stroke="#2a2a2a"/>
-    <circle cx="18" cy="14" r="3" fill="#7a5af8"/>
-    <circle cx="30" cy="14" r="3" fill="#98c379"/>
-    <circle cx="42" cy="14" r="3" fill="#e5a550"/>
-    <rect x="14" y="26" width="50" height="6" rx="3" fill="#1a1a1a"/>
-    <rect x="14" y="42" width="94" height="4" rx="2" fill="#7a5af8"/>
-    <rect x="112" y="42" width="48" height="4" rx="2" fill="#444"/>
-    <rect x="14" y="54" width="122" height="4" rx="2" fill="#98c379"/>
-    <rect x="14" y="66" width="104" height="4" rx="2" fill="#e5a550"/>
-    <rect x="14" y="78" width="130" height="4" rx="2" fill="#888"/>
-    <rect x="14" y="90" width="72" height="4" rx="2" fill="#7a5af8"/>
-    <rect x="92" y="90" width="54" height="4" rx="2" fill="#98c379"/>
-  </g>
+  <g transform="translate(742 96)">
+    <rect x="0" y="0" width="394" height="208" rx="30" fill="url(#frameGradient)" stroke="rgba(255,255,255,0.08)" />
+    <rect x="0.5" y="0.5" width="393" height="207" rx="29.5" stroke="rgba(124,58,237,0.22)" />
+    <rect x="1.5" y="1.5" width="391" height="205" rx="28.5" stroke="rgba(0,255,255,0.12)" />
 
-  <g transform="translate(782 152)">
-    <ellipse cx="44" cy="12" rx="34" ry="10" fill="#111" stroke="#333"/>
-    <path d="M10 12V58C10 63.523 25.222 68 44 68C62.778 68 78 63.523 78 58V12" fill="#111" stroke="#333"/>
-    <ellipse cx="44" cy="35" rx="34" ry="10" fill="#111" stroke="#333"/>
-    <ellipse cx="44" cy="58" rx="34" ry="10" fill="#111" stroke="#333"/>
-    <ellipse cx="44" cy="12" rx="28" ry="7" fill="#7a5af8" fill-opacity="0.18"/>
-    <ellipse cx="44" cy="35" rx="28" ry="7" fill="#98c379" fill-opacity="0.16"/>
-    <ellipse cx="44" cy="58" rx="28" ry="7" fill="#e5a550" fill-opacity="0.18"/>
-  </g>
+    <g transform="translate(24 22)">
+      <rect x="0" y="0" width="54" height="6" rx="3" fill="#00FFFF" opacity="0.84" />
+      <rect x="68" y="0" width="34" height="6" rx="3" fill="#7C3AED" opacity="0.72" />
+      <circle cx="312" cy="3" r="3" fill="#00FFFF" opacity="0.66" />
+      <circle cx="327" cy="3" r="3" fill="#7C3AED" opacity="0.72" />
+      <circle cx="342" cy="3" r="3" fill="#F3FCFF" opacity="0.52" />
+    </g>
 
-  <g transform="translate(838 154)" opacity="0.28">
-    <path d="M0 80H122" stroke="#1f1f1f"/>
-    <path d="M12 72H134" stroke="#1f1f1f"/>
-    <path d="M24 64H146" stroke="#1f1f1f"/>
-    <path d="M36 56H158" stroke="#1f1f1f"/>
-    <path d="M48 48H170" stroke="#1f1f1f"/>
-    <path d="M0 80L42 38" stroke="#222"/>
-    <path d="M24 80L66 38" stroke="#222"/>
-    <path d="M48 80L90 38" stroke="#222"/>
-    <path d="M72 80L114 38" stroke="#222"/>
-    <path d="M96 80L138 38" stroke="#222"/>
-    <path d="M120 80L162 38" stroke="#222"/>
+    <path d="M20 30H58" stroke="#00FFFF" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M20 30V68" stroke="#00FFFF" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M374 30H336" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M374 30V68" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M20 178H58" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M20 178V140" stroke="#7C3AED" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M374 178H336" stroke="#00FFFF" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M374 178V140" stroke="#00FFFF" stroke-width="1.6" stroke-linecap="round" />
+
+    <g transform="translate(48 50)">
+      <rect x="0" y="0" width="126" height="126" rx="24" fill="rgba(7,13,18,0.42)" stroke="rgba(0,255,255,0.26)" />
+      <rect x="1" y="1" width="124" height="124" rx="23" stroke="rgba(255,255,255,0.06)" />
+      <g transform="translate(63 63)" filter="url(#cyanGlow)">
+        <animateTransform attributeName="transform" type="translate" values="63 63;63 59;63 63" dur="4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.88;1;0.88" dur="4s" repeatCount="indefinite" />
+        <g fill="none" stroke="url(#cyanLine)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M-10 -34C-18 -25 -2 -18 -8 -8C-11 -3 -15 -1 -18 2" />
+          <path d="M8 -40C0 -30 15 -24 8 -12C4 -6 0 -3 -4 2" />
+          <path d="M26 -32C18 -24 32 -18 24 -8C20 -2 15 2 8 6" />
+          <path d="M-22 4H18C25 4 30 10 30 17V20C30 32 20 42 8 42H-6C-19 42 -28 31 -28 18V4H-22Z" fill="rgba(0,255,255,0.05)" />
+          <path d="M30 12H34C43 12 48 17 48 26C48 35 43 40 34 40H28" />
+          <path d="M-34 50C-12 58 26 58 48 50" />
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(220 50)">
+      <rect x="0" y="0" width="126" height="126" rx="24" fill="rgba(11,8,17,0.44)" stroke="rgba(124,58,237,0.30)" />
+      <rect x="1" y="1" width="124" height="124" rx="23" stroke="rgba(255,255,255,0.06)" />
+      <g transform="translate(63 63)" filter="url(#purpleGlow)">
+        <animateTransform attributeName="transform" type="translate" values="63 63;63 60;63 63" dur="4.6s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0.84;1;0.84" dur="4.6s" repeatCount="indefinite" />
+        <path d="M-14 -38H16C29 -38 38 -29 38 -16V-4C38 9 29 18 16 18H4C-4 18 -10 24 -10 32V42H-22V30C-22 15 -10 4 5 4H16C22 4 26 0 26 -6V-14C26 -20 22 -24 16 -24H-14C-20 -24 -24 -20 -24 -14V-4C-24 2 -20 6 -14 6H-4V18H-14C-27 18 -36 9 -36 -4V-16C-36 -29 -27 -38 -14 -38Z" fill="url(#pythonTop)" />
+        <path d="M14 38H-16C-29 38 -38 29 -38 16V4C-38 -9 -29 -18 -16 -18H-4C4 -18 10 -24 10 -32V-42H22V-30C22 -15 10 -4 -5 -4H-16C-22 -4 -26 0 -26 6V14C-26 20 -22 24 -16 24H14C20 24 24 20 24 14V4C24 -2 20 -6 14 -6H4V-18H14C27 -18 36 -9 36 4V16C36 29 27 38 14 38Z" fill="url(#pythonBottom)" />
+        <circle cx="8" cy="-22" r="4" fill="#050505" />
+        <circle cx="-8" cy="22" r="4" fill="#050505" />
+        <circle cx="8" cy="-22" r="1.8" fill="#EAFDFF" />
+        <circle cx="-8" cy="22" r="1.8" fill="#EAFDFF" />
+      </g>
+    </g>
   </g>
 </svg>

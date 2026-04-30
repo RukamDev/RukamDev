@@ -1,0 +1,69 @@
+<svg width="1200" height="140" viewBox="0 0 1200 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerBg" x1="0" y1="0" x2="1200" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#050505" />
+      <stop offset="0.55" stop-color="#070A0F" />
+      <stop offset="1" stop-color="#090513" />
+    </linearGradient>
+    <linearGradient id="waveCyan" x1="82" y1="28" x2="1088" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00FFFF" stop-opacity="0.14" />
+      <stop offset="1" stop-color="#00FFFF" stop-opacity="0.56" />
+    </linearGradient>
+    <linearGradient id="wavePurple" x1="1118" y1="18" x2="164" y2="120" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.12" />
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0.54" />
+    </linearGradient>
+    <linearGradient id="lineGlow" x1="0" y1="16" x2="1200" y2="16" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00FFFF" stop-opacity="0" />
+      <stop offset="0.2" stop-color="#00FFFF" stop-opacity="0.8" />
+      <stop offset="0.78" stop-color="#7C3AED" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="footerCyanAura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(278 96) rotate(5) scale(250 108)">
+      <stop offset="0" stop-color="#00FFFF" stop-opacity="0.24" />
+      <stop offset="1" stop-color="#00FFFF" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="footerPurpleAura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(936 76) rotate(-6) scale(260 112)">
+      <stop offset="0" stop-color="#7C3AED" stop-opacity="0.24" />
+      <stop offset="1" stop-color="#7C3AED" stop-opacity="0" />
+    </radialGradient>
+    <filter id="footerBlur" x="-120" y="-120" width="1440" height="360" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="34" />
+    </filter>
+    <filter id="footerGlow" x="-24" y="-24" width="1248" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#00FFFF" flood-opacity="0.34" />
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#7C3AED" flood-opacity="0.20" />
+    </filter>
+    <pattern id="footerGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="140" fill="url(#footerBg)" />
+  <rect width="1200" height="140" fill="url(#footerGrid)" opacity="0.22" />
+
+  <g filter="url(#footerBlur)">
+    <ellipse cx="270" cy="96" rx="210" ry="70" fill="url(#footerCyanAura)">
+      <animate attributeName="cx" values="270;250;270" dur="12s" repeatCount="indefinite" />
+    </ellipse>
+    <ellipse cx="934" cy="78" rx="220" ry="74" fill="url(#footerPurpleAura)">
+      <animate attributeName="cx" values="934;956;934" dur="14s" repeatCount="indefinite" />
+    </ellipse>
+  </g>
+
+  <g filter="url(#footerGlow)">
+    <line x1="44" y1="18" x2="1156" y2="18" stroke="url(#lineGlow)" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <path d="M0 94C130 60 274 48 432 66C592 84 718 124 878 118C1002 114 1104 86 1200 74V140H0V94Z" fill="url(#wavePurple)" opacity="0.58">
+    <animate attributeName="d" dur="12s" repeatCount="indefinite" values="M0 94C130 60 274 48 432 66C592 84 718 124 878 118C1002 114 1104 86 1200 74V140H0V94Z;M0 88C136 54 286 58 446 78C610 98 736 118 892 108C1014 100 1110 80 1200 70V140H0V88Z;M0 94C130 60 274 48 432 66C592 84 718 124 878 118C1002 114 1104 86 1200 74V140H0V94Z" />
+  </path>
+
+  <path d="M0 86C142 110 282 126 450 102C616 78 762 48 926 64C1030 74 1126 94 1200 110V140H0V86Z" fill="url(#waveCyan)" opacity="0.68">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M0 86C142 110 282 126 450 102C616 78 762 48 926 64C1030 74 1126 94 1200 110V140H0V86Z;M0 92C150 122 294 118 456 94C614 70 750 56 914 72C1020 82 1118 102 1200 116V140H0V92Z;M0 86C142 110 282 126 450 102C616 78 762 48 926 64C1030 74 1126 94 1200 110V140H0V86Z" />
+  </path>
+
+  <path d="M0 104C132 78 244 72 404 84C568 96 706 124 860 118C1002 112 1104 90 1200 82" stroke="#00FFFF" stroke-opacity="0.56" stroke-width="2.4" stroke-linecap="round">
+    <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M0 104C132 78 244 72 404 84C568 96 706 124 860 118C1002 112 1104 90 1200 82;M0 98C138 72 252 80 414 92C578 104 716 122 870 110C1008 100 1106 86 1200 76;M0 104C132 78 244 72 404 84C568 96 706 124 860 118C1002 112 1104 90 1200 82" />
+  </path>
+</svg>
