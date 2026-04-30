@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Rukam banner" />
+  <img src="./assets/banner-dark.png" alt="Rukam banner" />
 </p>
 
 <p align="center">
