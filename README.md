@@ -55,20 +55,6 @@ Mindset.....: Smart problem-solving, automation and data security
   <img src="https://streak-stats.demolab.com?user=RukamDev&theme=tokyonight&hide_border=true" />
 </p>
 
-## Current Focus
-
-- Building practical backend and automation projects for my portfolio.
-- Improving my skills in software engineering, Java, Python and databases.
-- Exploring data security, reliability and smart solutions for real-world problems.
-
-## Contact
-
-- GitHub: [@RukamDev](https://github.com/RukamDev)
-
 ---
 
 <p align="center"><i>"Smart solutions solve problems. Great engineering makes them reliable, secure and built to last."</i></p>
-
-<p align="center">
-  <img src="./assets/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" />
-</p>
