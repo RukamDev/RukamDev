@@ -1,4 +1,6 @@
-<h1 align="center">Gabriel S.</h1>
+<p align="center">
+  <img src="./assets/banner.png" alt="Gabriel S. banner" />
+</p>
 
 <p align="center">
   <a href="https://github.com/RukamDev">
@@ -29,8 +31,28 @@ Mindset.....: Smart problem-solving, automation and data security
 
 ## Tech Stack
 
+### Languages
+
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,bash,powershell,linux,windows,mysql,postgres,docker,git,github,githubactions,gitlab,vscode,idea" />
+  <img src="https://skillicons.dev/icons?i=python,java,javascript,typescript,bash" />
+</p>
+
+### Systems
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=linux,windows,powershell" />
+</p>
+
+### Databases
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=mysql,postgres" />
+</p>
+
+### Tools & DevOps
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,gitlab,vscode,idea" />
 </p>
 
 ## GitHub Stats
