@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/banner.png" alt="Gabriel S. banner" />
+  <img src="./assets/banner.svg" alt="Rukam banner" />
 </p>
 
 <p align="center">
@@ -68,3 +68,7 @@ Mindset.....: Smart problem-solving, automation and data security
 ---
 
 <p align="center"><i>"Smart solutions solve problems. Great engineering makes them reliable, secure and built to last."</i></p>
+
+<p align="center">
+  <img src="./assets/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" />
+</p>
