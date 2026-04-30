@@ -31,84 +31,9 @@ Mindset.....: Smart problem-solving, automation and data security
 
 ## Tech Stack
 
-### Languages
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=python&theme=dark" width="56" height="56" alt="Python" /><br>Python
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=java&theme=dark" width="56" height="56" alt="Java" /><br>Java
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=javascript&theme=dark" width="56" height="56" alt="JavaScript" /><br>JavaScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=typescript&theme=dark" width="56" height="56" alt="TypeScript" /><br>TypeScript
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=bash&theme=dark" width="56" height="56" alt="Bash" /><br>Bash
-    </td>
-  </tr>
-</table>
-
-### Systems
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=linux&theme=dark" width="56" height="56" alt="Linux" /><br>Linux
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=windows&theme=dark" width="56" height="56" alt="Windows" /><br>Windows
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=powershell&theme=dark" width="56" height="56" alt="PowerShell" /><br>PowerShell
-    </td>
-  </tr>
-</table>
-
-### Databases
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="56" height="56" alt="MySQL" /><br>MySQL
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="56" height="56" alt="PostgreSQL" /><br>PostgreSQL
-    </td>
-  </tr>
-</table>
-
-### Tools & DevOps
-
-<table>
-  <tr>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=docker&theme=dark" width="56" height="56" alt="Docker" /><br>Docker
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=git&theme=dark" width="56" height="56" alt="Git" /><br>Git
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=github&theme=dark" width="56" height="56" alt="GitHub" /><br>GitHub
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=githubactions&theme=dark" width="56" height="56" alt="GitHub Actions" /><br>GitHub Actions
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=gitlab&theme=dark" width="56" height="56" alt="GitLab" /><br>GitLab
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="56" height="56" alt="VS Code" /><br>VS Code
-    </td>
-    <td align="center" width="96">
-      <img src="https://skillicons.dev/icons?i=idea&theme=dark" width="56" height="56" alt="IntelliJ IDEA" /><br>IntelliJ IDEA
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./assets/tech-stack-animated.svg" alt="Animated tech stack with categories for languages, systems, databases, and tools." />
+</p>
 
 ## GitHub Stats
 
