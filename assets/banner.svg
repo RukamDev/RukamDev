@@ -95,7 +95,7 @@
 
     <text x="28" y="58" class="mono" font-size="24" font-weight="600" fill="#00FFFF">$ whoami</text>
     <text x="28" y="112" class="sans" font-size="58" font-weight="700" fill="#F5FCFF">Gabriel S.</text>
-    <text x="30" y="150" class="sans" font-size="22" font-weight="500" fill="#D9F8FF">Fullstack Developer . Automation . Data . Security</text>
+    <text x="30" y="150" class="sans" font-size="22" font-weight="500" fill="#D9F8FF">Fullstack Developer &#8226; Automation &#8226; Data &#8226; Security</text>
 
     <g transform="translate(28 170)">
       <rect x="0" y="0" width="214" height="52" rx="16" fill="rgba(5,5,5,0.34)" stroke="rgba(124,58,237,0.34)"/>
